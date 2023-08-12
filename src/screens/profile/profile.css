@@ -1,0 +1,53 @@
+.profile-screen {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-screen .body {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  padding: 2%;
+  /* margin: 0 auto; */
+  max-width: 800px;
+}
+.profile-screen .body .info {
+  display: flex;
+}
+.profile-screen .body .info > img {
+  height: 100px;
+}
+.body h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+.details {
+  color: #fff;
+  margin-left: 25px;
+  flex: 1;
+}
+.details h2 {
+  background-color: gray;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.sign-out {
+  background-color: #e50914;
+  padding: 10px 20px;
+  margin-top: 3%;
+  width: 100%;
+  color: #fff;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.plans h3 {
+  padding: 10px 0;
+}

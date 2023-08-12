@@ -1,0 +1,31 @@
+.plan-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+.plan-box:hover {
+  opacity: 1;
+}
+
+.plan-box .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-btn {
+  padding: 10px 20px;
+  background-color: #e50914;
+  outline: 0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.sub-btn:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}

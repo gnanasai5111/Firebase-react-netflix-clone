@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  top: 0;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.header-black {
+  background-color: #111;
+}
+
+.header-contents {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  position: fixed;
+  left: 20px;
+  object-fit: contain;
+  width: 80px;
+  cursor: pointer;
+}
+.header-avatar {
+  position: fixed;
+  right: 20px;
+  object-fit: contain;
+  cursor: pointer;
+  width: 30px;
+}
